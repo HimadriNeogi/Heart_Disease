@@ -1,6 +1,6 @@
 About this dataset:
-The Cleveland database is the only one that has been used by ML researchers to this date.This database contains 14 attributes.
-The "target" field refers to the presence of heart disease in the patient. 
+This database contains 12 attributes.
+The "HeartDisease" column refers to the presence of heart disease in the patient. 
 The integer value 0 = no/less chance of heart attack and 1 = more chance of heart attack.
 
 Attribute Information: 
@@ -8,36 +8,32 @@ Attribute Information:
 
 2) Sex : Sex of the patient
 
-3) cp : Chest Pain type chest pain type
-Value 1: typical angina
-Value 2: atypical angina
-Value 3: non-anginal pain
-Value 4: asymptomatic
+3) ChestPain : Chest Pain type chest pain type
+a) typical angina
+b) atypical angina
+c) non-anginal pain
+d) asymptomatic
 
-4) trestbps : resting blood pressure (in mm Hg)
+4) RestingBP : resting blood pressure (in mm Hg)
 
-5) chol : cholesterol in mg/dl fetched via BMI sensor
+5) Cholesterol : cholesterol in mg/dl fetched via BMI sensor
 
-6) fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+6) FastingBS : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
 
-7) restecg : resting electrocardiographic results
-Value 0: normal
-Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+7) RestingECG : resting electrocardiographic results
+a) normal
+b) having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+c) showing probable or definite left ventricular hypertrophy by Estes' criteria
 
-8) thalach : maximum heart rate achieved
+8) MaxHR : maximum heart rate achieved
 
-9) exang: exercise induced angina (1 = yes; 0 = no)
+9) ExerciseAngina: exercise induced angina (1 = yes; 0 = no)
 
-10) oldpeak: ST depression induced by exercise relative to rest
+10) Oldpeak: ST depression induced by exercise relative to rest
 
-11) slope: the slope of the peak exercise ST segment
-Value 1: upsloping
-Value 2: flat
-Value 3: downsloping
+11) ST_Slope: the slope of the peak exercise ST segment
+a) Up
+b) Flat
+c) Down
 
-12) ca: number of major vessels (0-3) colored by flouroscopy
-
-13) thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
-
-14) target: 0= no/less chance of heart attack 1= more chance of heart attack
+12) HeartDisease: 0= no/less chance of heart attack, 1= more chance of heart attack
